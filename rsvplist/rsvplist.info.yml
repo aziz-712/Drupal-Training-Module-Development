@@ -1,0 +1,10 @@
+name: Rsvp List
+type: module
+core_version_requirement: '>=8'
+description: Allows users to RSVP for Events
+package: Follow Acquia Module Dev Course
+
+dependencies:
+  - drupal:block
+
+configure: rvsplist.admin_settings
