@@ -131,7 +131,7 @@ class RSVPForm extends FormBase {
       // End Phase 3
     } catch (\Exception $e) {
       \Drupal::messenger()->addError(
-        t('Unable to save RSVP settings at this time due to database error.
+        t($e . 'Unable to save RSVP settings at this time due to database error.
           Please try again.')
       );
     }
